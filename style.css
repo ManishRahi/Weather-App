@@ -1,0 +1,97 @@
+/* Font & Base Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e6f2ff, #cce5ff); /* Light blue gradient */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 102, 204, 0.1); /* Soft blue shadow */
+  text-align: center;
+  width: 320px;
+  backdrop-filter: blur(5px); /* Frosted glass effect */
+  border: 1px solid rgba(173, 216, 230, 0.3); /* Light blue border */
+}
+
+/* Title */
+h1 {
+  color: #0066cc; /* Deep blue */
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Search Box */
+.search-box {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 12px;
+  width: 70%;
+  border: 1px solid #b3d9ff; /* Light blue border */
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #4da6ff; /* Brighter blue on focus */
+}
+
+button {
+  padding: 12px 15px;
+  background: #4da6ff; /* Vibrant blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0066cc; /* Darker blue on hover */
+}
+
+/* Weather Info */
+.weather-info {
+  margin-top: 25px;
+  color: #333;
+}
+
+#weather-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+#temperature {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0066cc; /* Deep blue */
+  margin: 10px 0;
+}
+
+#description {
+  font-size: 18px;
+  color: #555;
+  text-transform: capitalize;
+}
+
+/* Error Message */
+#error-message {
+  color: #ff4d4d; /* Soft red */
+  margin-top: 15px;
+  font-size: 14px;
+}
