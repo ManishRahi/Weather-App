@@ -1,4 +1,4 @@
-const apiKey = 'ded889aae154aab47049d1f0c57267ae'; // Replace with your API key
+const apiKey = 'ded889aae154aab47049d1f0c57267ae';
 const searchBtn = document.getElementById('search-btn');
 const cityInput = document.getElementById('city-input');
 const weatherIcon = document.getElementById('weather-icon');
